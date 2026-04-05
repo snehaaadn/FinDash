@@ -40,3 +40,21 @@ src/
 ├── data/               # Initial 2026 Roadmap Data
 ├── pages/              # Main Dashboard & Reports views
 └── utils/              # Robust Date parsing & formatting helpers
+```
+## 🚀 Getting Started
+
+**Clone the repository**:
+```bash
+git clone [https://github.com/YOUR_USERNAME/Zorvyn-Assessment.git](https://github.com/YOUR_USERNAME/Zorvyn-Assessment.git)
+
+```
+**Install dependencies:**
+```Bash
+npm install
+```
+**Run the development server:**
+
+```Bash
+npm run dev
+```
+*Created for the Zorvyn Technical Assessment - April 2026.*
