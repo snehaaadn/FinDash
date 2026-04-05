@@ -1,4 +1,4 @@
-# 📊 FinDash - Executive Financial Auditing Dashboard
+# FinDash - Executive Financial Auditing Dashboard
 
 **A high-fidelity, modular financial management platform built for automated auditing and capital management.**
 
@@ -45,7 +45,7 @@ src/
 
 **Clone the repository**:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/Zorvyn-Assessment.git](https://github.com/YOUR_USERNAME/Zorvyn-Assessment.git)
+git clone [https://github.com/YOUR_USERNAME/FinDash.git]
 
 ```
 **Install dependencies:**
