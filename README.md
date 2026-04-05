@@ -1,18 +1,42 @@
-# React + Vite
+# 📊 FinDash - Executive Financial Auditing Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A high-fidelity, modular financial management platform built for automated auditing and capital management.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo
+**[  ]**
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Key Features
 
-Note: This will impact Vite dev & build performances.
+* **Modular Component Architecture**: Engineered with a highly decoupled structure, separating logic into specialized components like `MetricHighlights`, `MovementInsights`, and `SectorConcentration` for maximum maintainability.
+* **Role-Based Access Control (RBAC)**: Supports dynamic switching between **Admin** (Full CRUD permissions) and **Viewer** (Read-only) modes, with UI elements adapting in real-time.
+* **Intelligent Data Persistence**: Leverages a custom **LocalStorage** sync engine to ensure all transaction logs, edits, and user roles persist across sessions.
+* **Advanced Analytics Suite**: Features a dedicated reporting module with monthly variance tracking, automated "Actionable Insights," and historical log comparisons.
+* **Audit-Ready JSON Export**: Includes a functional utility to export the current state of financial logs as a formatted JSON file for external auditing.
+* **Responsive Mobile Experience**: Fully optimized for mobile devices with a slide-out hamburger navigation menu and adaptive layout grids.
+* **One-Click State Reset**: Integrated "Reset Dashboard" utility to instantly clear browser memory and revert to the default 2026 financial roadmap.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Core Framework**: React 18 with Vite for ultra-fast development and optimized production builds.
+* **Styling**: Tailwind CSS utilizing glass-morphism, custom linear gradients, and sophisticated backdrop blurs.
+* **State Management**: React Context API for global financial data distribution and role synchronization.
+* **Icons**: Custom-built SVG component library.
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── analytics/      # Monthly Metrics, Sector & Trend components
+│   ├── dashboard/      # Table, Modals, Highlight & Insight 
+│   ├── layout/         # Sidebar & Navigation
+│   └── ui/             # Reusable Icons & GlassCard wrappers
+│   └── modal/          # Audit Report & Transaction modal
+├── context/            # Global Financial State & Logic (Context API)
+├── data/               # Initial 2026 Roadmap Data
+├── pages/              # Main Dashboard & Reports views
+└── utils/              # Robust Date parsing & formatting helpers
