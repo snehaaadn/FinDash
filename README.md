@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Live Demo
-**[  ]**
+**[ https://fin-dash-jet.vercel.app ]**
 
 ---
 
